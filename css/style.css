@@ -1,0 +1,44 @@
+body {
+    background-color: #0e83cc;
+    color: white;
+    font-family: monospace;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+canvas {
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    height: 50px;
+    width: 256px;
+    border: 3px solid white;
+    background-color: #0e83cd;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #0e83cd;
+    border: 3px solid #0e83cd;
+    background: white;
+}
+
+button:active {
+    background-color: gainsboro;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
